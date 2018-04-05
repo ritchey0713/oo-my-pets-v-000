@@ -65,7 +65,7 @@ class Owner
   end
   
   def feed_fish 
-    @pets[:fish].each do |fish_info|
+    @pets[:fishes].each do |fish_info|
         #binding.pry 
         fish_info.mood = "happy"
        end
