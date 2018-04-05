@@ -54,6 +54,7 @@ class Owner
    
      @pets[:dogs].each do |dog_info|
         binding.pry 
+        dog_info.mood = "happy"
        
      end
     
