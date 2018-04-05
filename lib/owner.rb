@@ -35,9 +35,7 @@ class Owner
     @pets
   end 
   
-  def pets_clear
-    @pets.clear
-  end
+
   
   def buy_fish(name)
    name = Fish.new(name) 
@@ -76,6 +74,7 @@ class Owner
   end 
   
   def sell_pets 
+    @pets.clear
     
   end
   
