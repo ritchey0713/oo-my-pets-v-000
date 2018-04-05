@@ -33,8 +33,11 @@ class Owner
   
   def pets 
     @pets
-    
   end 
+  
+  def pets_clear
+    @pets.clear
+  end
   
   def buy_fish(name)
    name = Fish.new(name) 
