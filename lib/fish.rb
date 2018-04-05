@@ -9,7 +9,7 @@ class Fish
   
   def initialize(name)
     @name = name 
-    @mood = mood ||= "nervous"
+    @mood = mood = "nervous"
   end
   
 def self.feed_fish 
