@@ -50,7 +50,7 @@ class Owner
    @pets[:cats] << name
   end
   
-  def walk_dog
+  def walk_dogs
     @mood = "happy"
   end
   
