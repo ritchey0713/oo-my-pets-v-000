@@ -2,6 +2,7 @@ class Owner
   @@owners = []
   
   attr_accessor :name
+  attr_writer :pets
   
   def self.all 
     @@owners 
